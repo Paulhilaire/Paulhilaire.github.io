@@ -11,6 +11,8 @@
 4. [Publications](#publications)
 5. [Conferences](#conferences)
 
+
+---
 ## Profile
 - Highly motivated postdoctoral researcher with solid expertise in experimental and theoretical quantum
 optics, solid-state semiconductor physics and quantum information.
@@ -18,6 +20,7 @@ optics, solid-state semiconductor physics and quantum information.
 - Other computer skills: Linux / MacOs / Windows, LateX, MS Office, Blender, Igor...
 
 
+---
 ## Experience
 
 ### Postdoctoral position in Quantum Optics and Quantum Information theory:
@@ -68,7 +71,7 @@ Proposed and implemented a process to fully deterministically build a solid-stat
 - Teacher in lab and tutorial courses to undergraduate classes at University Paris-Diderot (Paris).
 
 
-
+---
 ## Education
 
 ##### Master Degree at Ecole Centrale Paris (CentraleSupelec), (France), Applied Physics  
@@ -108,7 +111,7 @@ Subject: *“Study of Rayleigh-Taylor Instability in supernovae.”*
 Supervisor: S. Bouquet
 
 
-
+---
 ## Publications
 (Chronological order)
 
@@ -143,7 +146,7 @@ O. Krebs, N. Somaschi, P. Senellart, L. Lanco, [Optica, Vol. 4, Issue 11, pp. 13
 
 
 
-
+---
 ## Conferences
 
 
