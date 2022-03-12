@@ -196,3 +196,6 @@ Has reviewed for the following peer-reviewed journals:
 *Optica,*    
 *Journal of the Optical Society of America B*
 
+test link:
+[Conferences](https://paulhilaire.github.io/docs/publi.md)
+
