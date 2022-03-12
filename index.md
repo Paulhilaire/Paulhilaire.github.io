@@ -9,9 +9,7 @@
 2. [Experience](#experience)
 3. [Education](#education)
 4. [Publications](#publications)
-5. [Presentations](#presentations)
-6. [References](#references)
-
+5. [Conferences](#conferences)
 
 ## Profile
 - Highly motivated postdoctoral researcher with solid expertise in experimental and theoretical quantum
@@ -146,7 +144,7 @@ O. Krebs, N. Somaschi, P. Senellart, L. Lanco, [Optica, Vol. 4, Issue 11, pp. 13
 
 
 
-## Presentations
+## Conferences
 
 
 #### 2022:
