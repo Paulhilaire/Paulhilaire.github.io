@@ -3,13 +3,13 @@
 [hilaire.paul@gmail.com](mailto:hilaire.paul@gmail.com)   
 30-year-old
 
-<!--
+
 ## Table of contents
-1. [Profile](docs/profile.md)
-2. [Experience](docs/exp.md)
-3. [Education](docs/educ.md)
-4. [Publications](docs/publi.md)
-5. [Conferences](docs/conf.md) -->
+1. [Profile](#profile)
+2. [Experience](#experience)
+3. [Education](#education)
+4. [Publications](#publications)
+5. [Conferences](#conferences)
 
 
 ---
