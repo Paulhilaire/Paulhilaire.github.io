@@ -99,7 +99,7 @@ O. Krebs, N. Somaschi, P. Senellart, L. Lanco, [Optica, Vol. 4, Issue 11, pp. 13
 14. *Deterministic generation of entangled photonic cluster states from quantum dot molecules*,  <br> A. Vezvaee, __PH__, M. Doty, S.E. Economou
 [arxiv, 2206.03647](https://arxiv.org/pdf/2206.03647.pdf)
 
-15. *High-rate entanglement between a semiconductor spin and indistinguishable photons*, N. Coste, D. Fioretto, N. Belabas, S.C. Wein, __PH__, R. Frantzeskakis, M. Gundin, B. Goes, N. Somaschi, M. Morassi, A. Lemaître, I. Sagnes, A. Harouri, S.E. Economou, A. Auffèves, O. Krebs, L. Lanco, P. Senellart, <br> [arxiv, 2207.09881](https://arxiv.org/pdf/2207.09881.pdf)
+15. *High-rate entanglement between a semiconductor spin and indistinguishable photons*, <br> N. Coste, D. Fioretto, N. Belabas, S.C. Wein, __PH__, R. Frantzeskakis, M. Gundin, B. Goes, N. Somaschi, M. Morassi, A. Lemaître, I. Sagnes, A. Harouri, S.E. Economou, A. Auffèves, O. Krebs, L. Lanco, P. Senellart, [arxiv, 2207.09881](https://arxiv.org/pdf/2207.09881.pdf)
 
 16. *Performance analysis of quantum repeaters enabled by deterministically generated photonic graph states*, <br> Y. Zhan, __PH__, E. Barnes, S.E. Economou, S. Sun [arxiv, 2209.11430](https://arxiv.org/pdf/2209.11430.pdf)
 
