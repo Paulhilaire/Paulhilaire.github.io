@@ -5,17 +5,10 @@
 
 
 ## Table of contents
-1. [Profile](#profile)
-2. [Experience](#experience)
-3. [Education](#education)
-4. [Publications](#publications)
-5. [Conferences](#conferences)
-
-
----
-## Profile
-Highly motivated quantum information scientist with solid expertise in experimental and theoretical quantum
-optics, solid-state semiconductor physics and quantum information.
+1. [Experience](#experience)
+2. [Education](#education)
+3. [Publications](#publications)
+4. [Conferences](#conferences)
 
 
 ---
@@ -23,12 +16,8 @@ optics, solid-state semiconductor physics and quantum information.
 
 ### Quantum Information Scientist at Quandela SAS (France)
 May. 2022 - today     
-##### Activities:
-- Research towards enabling photonic fault-tolerant quantum computers and its architecture.
-- Realistic & efficient simulations of quantum devices
 
 ### Postdoctoral positions in Quantum Optics and Quantum Information theory:
-
 #### Leiden University, Leiden (Netherlands)
 Apr. 2021 - Apr. 2022     
 Advisors: W. Löffler, E. Barnes, S. Economou.
@@ -37,44 +26,24 @@ Advisors: W. Löffler, E. Barnes, S. Economou.
 Jul. 2019 - Apr. 2021     
 Advisors: S. Economou, E. Barnes.
 
-##### Activities:
-- Related to photonic graph state generation and their applications
-- Linear-optic quantum processing
-- Quantum control of quantum emitters.
-
 ### PhD in Quantum Nanophotonics:
 Nov. 2015 - Jun. 2019    
 Center for Nanosciences and Nanotechnology (C2N-CNRS, Palaiseau, France)/ University of Paris, Paris (France))   
 Project: *"A cavity-based spin-photon interface"*,  
 Supervisor: L. Lanco.
 
-##### Activities:
-- Development of state-of-the-art spin-photon interfaces.
-- Development of experimental and numerical tools for the polarization analysis of spin-photon interfaces.
-- Teacher in lab and tutorial courses to undergraduate classes @ University Paris Diderot (now Université Paris Cité) + supervision of 3 undergraduate students.
 
 ***
 ## Education
 
 ##### Master Degree at Ecole Centrale Paris (CentraleSupelec), (France), Applied Physics  
 (2011-2015 )
-Main courses in Physics, Mathematics and Engineering
 
 ##### Master of Science in Nanosciences, University Paris-Saclay, Nanophysics curriculum
 (2014-2015) In parallel with Centrale Paris, Main courses in Quantum Optics and Nanophotonics
 
 ##### Bachelor degree in Fundamental Physics, Paris-Sud University (Orsay, France)
-(2012-2013)
-In parallel with Centrale Paris
-
-##### Post-secondary preparatory courses , Fabert High School (Metz, France), Intensive preparation
-(2009-2011)
-for the leading French engineering schools
-Main courses in Mathematics and Physics.
-
-##### Baccalaureat (secondary school diploma) of Science with High Honours,
-(Fabert High School (Metz, France))
-(2009)
+(2012-2013) In parallel with Centrale Paris
 
 ### Internships:
 
@@ -108,8 +77,6 @@ O. Krebs, N. Somaschi, P. Senellart, L. Lanco, [Optica, Vol. 4, Issue 11, pp. 13
 
 4. *Generation of non-classical light in a photon-number superposition*,  <br>    J. C. Loredo, C. Antón, B. Reznychenko, __PH__, A. Harouri, C. Millet, H. Ollivier, N. Somaschi, L. De Santis, A. Lemaitre, I. Sagnes, L. Lanco, A. Auffèves, O. Krebs, P. Senellart, [Nature Photonics (2019)](https://www.nature.com/articles/s41566-019-0506-3)
 
-
-
 5. *Reproducibility of high-performance quantum dot single-photon sources*,  <br> H. Ollivier, I. Maillette de Buy Wenniger, S. Thomas, S.C. Wien, A. Harouri, G. Coppola, __PH__, C. Millet, A. Lemaitre, I. Sagnes, O. Krebs, L. Lanco, J.C. Loredo, C. Antón, N. Somaschi, P. Senellart, [ACS Photonics (2020)](https://pubs.acs.org/doi/abs/10.1021/acsphotonics.9b01805?casa_token=sWMZrfLpeNoAAAAA:ObaF_U5JRy7bnSn0S3Vc-SqaiH4Qx7fk80VHIW2JRujGcN_qFhSob5qAruKges2-VbERhdkoHD3pGX7_)
 
 6. *Sequential generation of linear cluster states from a single photon emitter*, <br> D. Istrati, Y. Pilnyak, C. Anton, J. C. Loredo, N. Somaschi, __PH__, H. Ollivier, M. Esmann, L. Cohen, L. Vidro, C. Millet, A. Lemaitre, I. Sagnes, A. Harouri, L. Lanco, P. Senellart, H. S. Eisenberg, [Nat. Comm., 11, 5501 (2020)](https://www.nature.com/articles/s41467-020-19341-4)
@@ -131,6 +98,10 @@ O. Krebs, N. Somaschi, P. Senellart, L. Lanco, [Optica, Vol. 4, Issue 11, pp. 13
 
 14. *Deterministic generation of entangled photonic cluster states from quantum dot molecules*,  <br> A. Vezvaee, __PH__, M. Doty, S.E. Economou
 [arxiv, 2206.03647](https://arxiv.org/pdf/2206.03647.pdf)
+
+15. *High-rate entanglement between a semiconductor spin and indistinguishable photons*, N. Coste, D. Fioretto, N. Belabas, S.C. Wein, __PH__, R. Frantzeskakis, M. Gundin, B. Goes, N. Somaschi, M. Morassi, A. Lemaître, I. Sagnes, A. Harouri, S.E. Economou, A. Auffèves, O. Krebs, L. Lanco, P. Senellart, <br> [arxiv, 2207.09881](https://arxiv.org/pdf/2207.09881.pdf)
+
+16. *Performance analysis of quantum repeaters enabled by deterministically generated photonic graph states*, <br> Y. Zhan, __PH__, E. Barnes, S.E. Economou, S. Sun [arxiv, 2209.11430](https://arxiv.org/pdf/2209.11430.pdf)
 
 ---
 ## Conferences
