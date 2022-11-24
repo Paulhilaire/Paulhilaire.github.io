@@ -108,6 +108,7 @@ O. Krebs, N. Somaschi, P. Senellart, L. Lanco, [Optica, Vol. 4, Issue 11, pp. 13
 
 
 #### 2022:
+- Fundamental loss-tolerance thresholds of logical linear-optical Bell state measurements (C2N, France) (Nov 16-18 2022) **Contributed talk**
 - Logical Bell state measurements with maximum loss-tolerance threshold using linear optics, Optica Quantum 2.0 conference (Boston, MA, USA) (Jun. 13-16 2022), **Contributed talk** + **Chairman**
 - Near-deterministic generation of photonic graph states through hybrid strategies using a realistic quantum emitter and linear optics, March Meeting (Mar. 14 - 18 2022), **Contributed Talk**  
 - (Near-)Deterministic graph state generation and applications to photonic quantum computing and quantum repeaters, Quandela SAS (Mar. 1 2022), **Invited Seminar**
