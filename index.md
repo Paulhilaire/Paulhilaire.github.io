@@ -72,7 +72,6 @@ Supervisor: S. Bouquet
 2. *Tomography of the optical polarization rotation induced by a single quantum dot in a cavity*, <br> C. Antón, __PH__, C. A. Kessler, J. Demory, C. Gómez, A. Lemaitre, I. Sagnes, N. D. Lanzillotti-Kimura,
 O. Krebs, N. Somaschi, P. Senellart, L. Lanco, [Optica, Vol. 4, Issue 11, pp. 1326-1332 (2017)](https://www.osapublishing.org/optica/abstract.cfm?uri=optica-4-11-1326)
 
-
 3. *Accurate measurement of a 96% input coupling into a cavity using polarization tomography*, <br> __PH__, C. Antón, C. A. Kessler, A. Lemaitre, I. Sagnes, N. Somaschi, P.Senellart, L. Lanco, [Appl. Phys. Lett., 112, 201101 (2018)](https://aip.scitation.org/doi/10.1063/1.5026799)
 
 4. *Generation of non-classical light in a photon-number superposition*,  <br>    J. C. Loredo, C. Antón, B. Reznychenko, __PH__, A. Harouri, C. Millet, H. Ollivier, N. Somaschi, L. De Santis, A. Lemaitre, I. Sagnes, L. Lanco, A. Auffèves, O. Krebs, P. Senellart, [Nature Photonics (2019)](https://www.nature.com/articles/s41566-019-0506-3)
@@ -108,7 +107,7 @@ O. Krebs, N. Somaschi, P. Senellart, L. Lanco, [Optica, Vol. 4, Issue 11, pp. 13
 
 
 #### 2022:
-- Fundamental loss-tolerance thresholds of logical linear-optical Bell state measurements (C2N, France) (Nov 16-18 2022) **Contributed talk**
+- Fundamental loss-tolerance thresholds of logical linear-optical Bell state measurements (GdR IQFA, C2N, France) (Nov 16-18 2022) **Contributed talk**
 - Logical Bell state measurements with maximum loss-tolerance threshold using linear optics, Optica Quantum 2.0 conference (Boston, MA, USA) (Jun. 13-16 2022), **Contributed talk** + **Chairman**
 - Near-deterministic generation of photonic graph states through hybrid strategies using a realistic quantum emitter and linear optics, March Meeting (Mar. 14 - 18 2022), **Contributed Talk**  
 - (Near-)Deterministic graph state generation and applications to photonic quantum computing and quantum repeaters, Quandela SAS (Mar. 1 2022), **Invited Seminar**
