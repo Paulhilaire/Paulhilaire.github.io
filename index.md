@@ -122,7 +122,6 @@ O. Krebs, N. Somaschi, P. Senellart, L. Lanco, [Optica, Vol. 4, Issue 11, pp. 13
 
 #### 2020:
 - Resource-efficient quantum communications using all-photonic graph state generated from a few matter qubits, Quantum Huddle Webinar (Aug. 10, 2020), **Invited talk**   
-- Quantum networking with all-photonic repeaters, Ultrafast dynamics and mestability & Ultrafast bandgap photonics (May. 18 - 20, 2020) (postponed to 2021, then 2022 due to Covid), **Invited talk**   
 - Resource-efficient quantum communication using all-photonic graph states generated from quantum emitters, APS March meeting (Mar. 2 - 6, 2020) (virtual), **Contributed talk**   
 - Quantum communication networks and quantum repeaters, Winter school on Quantum Computing at Emory (WiSQCE) (Jan. 7 - 10, 2020), **Invited seminar**   
 
