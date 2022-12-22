@@ -1,7 +1,6 @@
 # Paul Hilaire
 
-[hilaire.paul@gmail.com](mailto:hilaire.paul@gmail.com)   
-30-year-old
+[hilaire.paul@gmail.com](mailto:paul.hilaire@quandela.com)   
 
 
 ## Table of contents
