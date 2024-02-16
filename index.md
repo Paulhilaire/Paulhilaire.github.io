@@ -45,16 +45,16 @@ O. Krebs, N. Somaschi, P. Senellart, L. Lanco, [Optica, Vol. 4, Issue 11, pp. 13
 
 14. *Near-deterministic hybrid generation of arbitrary photonic graph states using a single quantum emitter and linear optics*,  <br> __PH__, L. Vidro, H.S. Eisenberg, S.E. Economou [Quantum 7, 992 (2023)](https://quantum-journal.org/papers/q-2023-04-27-992/)
 
-15. *High-rate entanglement between a semiconductor spin and indistinguishable photons*, <br> N. Coste, D. Fioretto, N. Belabas, S.C. Wein, __PH__, R. Frantzeskakis, M. Gundin, B. Goes, N. Somaschi, M. Morassi, A. Lemaître, I. Sagnes, A. Harouri, S.E. Economou, A. Auffèves, O. Krebs, L. Lanco, P. Senellart, [arxiv, 2207.09881](https://arxiv.org/pdf/2207.09881.pdf)
+15. *High-rate entanglement between a semiconductor spin and indistinguishable photons*, <br> N. Coste, D. Fioretto, N. Belabas, S.C. Wein, __PH__, R. Frantzeskakis, M. Gundin, B. Goes, N. Somaschi, M. Morassi, A. Lemaître, I. Sagnes, A. Harouri, S.E. Economou, A. Auffèves, O. Krebs, L. Lanco, P. Senellart, [Nature Photonics 17, 582–587 (2023)](https://www.nature.com/articles/s41566-023-01186-0), [arxiv](https://arxiv.org/pdf/2207.09881.pdf)
 
 16. *Performance analysis of quantum repeaters enabled by deterministically generated photonic graph states*, <br> Y. Zhan, __PH__, E. Barnes, S.E. Economou, S. Sun 
 [Quantum, 7, 924 (2023)](https://quantum-journal.org/papers/q-2023-02-16-924/)
 
-17. *Quantum repeaters: From quantum networks to the quantum internet*, <br> K. Azuma, S.E. Economou, D. Elkouss, __PH__, L. Jiang, H-K. Lo, I. Tzitrin [arxiv, 2212.10820](https://arxiv.org/pdf/2212.10820.pdf) [Reviews of Modern Physics 95 (4), 045006](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.95.045006)
+17. *Quantum repeaters: From quantum networks to the quantum internet*, <br> K. Azuma, S.E. Economou, D. Elkouss, __PH__, L. Jiang, H-K. Lo, I. Tzitrin [Reviews of Modern Physics 95 (4), 045006](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.95.045006), [arxiv](https://arxiv.org/pdf/2212.10820.pdf) 
 
 18. *Architectures for Multinode Superconducting Quantum Computers*, <br> J. Ang *et al.* [arxiv, 2212.06167](https://arxiv.org/abs/2212.06167) 
 
-19. *Linear optical logical Bell state measurements with optimal loss-tolerance threshold*, <br> __PH__, Y. Castor, E. Barnes, S.E. Economou, F. Grosshans [arxiv, 2302.07908](https://arxiv.org/abs/2302.07908)
+19. *Linear optical logical Bell state measurements with optimal loss-tolerance threshold*, <br> __PH__, Y. Castor, E. Barnes, S.E. Economou, F. Grosshans [PRX Quantum 4, 040322 (2023)](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.040322), [arxiv](https://arxiv.org/abs/2302.07908)
 
 20. *A Spin-Optical Quantum Computing Architecture*, <br> G. de Gliniasty, __PH__, P-E Emeriau, SC Wein, A Salavrakos, S Mansfield [arxiv, 2311.05605](https://arxiv.org/abs/2311.05605)
 
