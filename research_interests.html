@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Hilaire's Website</title>
+</head>
+<body>
+        <!-- HEADERS -->
+        <section>
+            <h1>Paul Hilaire</h1>
+            <div>
+                <a href="./index.html">Home</a>
+                <a href="./cv.html">CV</a>
+                <a href="./research_interests.html">Research Interests</a>
+                <a href="./thoughts.html">Thoughts</a>
+                <a href="./teaching.html">Teaching</a>
+            </div>
+        </section>
+        <!-- HEADERS -->
+    
+
+    <section><h2>Research interests</h2>
+        <h3>Photonic quantum technologies</h3>
+        <p>
+            To carry out an algorithm, we usually perform single-qubit and two-qubit gates onto physical objects that encode qubits.
+            Photonic platforms are among the leading contenders for quantum information technologies, with several advantage over other technologies (e.g. high-fidelity gates, fast clock rates, and long-range interaction)
+            In that regard, photons are extremely good at performing the former one but have some difficulties to perform the latter.
+            More specifically, entangling two-qubit gates are probabilistic when using photons (with a prohibitively low success probability).
+            This advocate for finding different paradigms of quantum computing better suited for photonic platforms.
+            One alternative method is to find more "photon-native" methods to process quantum information beyond the qubit paradigm.
+            Usually, chosing this option remove the possibility of performing universal gates and to protect quantum states by using quantum error correction.
+            
+            I am interested in fostering the way we can compute quantum algorithms with photonic platforms.
+            I work on the theoretical developments at the source level, to enable new type of atomic sources of single photons capable of generating entanglement deterministically at source.
+            I am also working on finding the best way to perform entangling operations with photons, that are amenable in measurement-based quantum computing or in more tailored architectures.
+        </p>
+        <h3>Graph state and measurement-based quantum computing</h3>
+        <p>
+            A very important class of quantum states are the stabilizer state, states that can be efficiently described (and simulated, see Gottesman-Knill theorem)
+            by enumerating the Pauli operators that leave it unchanged.
+            All of these states are locally equivalent to graph states.
+            A graph state are in one-to-one correspondence with a graph, which makes it extremely interesting because we can use the rich field of graph theory for these states.
+            Among other things, they are the main resource of an important paradigm in quantum computing called measurement-based quantum computing where a quantum algorithm is carried out only through adaptive single-qubit measurements on a resource graph state.
+            They are also interesting in quantum communications as their graph structure can also denote a quantum network.
+
+            I am  interested in the best way to generate these graphs in practice. Particularly, how to produce photonic graph states out of photon sources.
+            I also explore their application to quantum computing and quantum communications.
+            In particular, I am working on the development of all-photonic graph-based quantum repeater protocols.
+        </p>
+        <h3>Quantum error correction and fault-tolerant quantum computing architectures</h3>
+        <p>
+            Quantum Error Correction (QEC) is a method to actively protect quantum information from non-negligible physical noise.
+            It does so by decorrelating the noise on the logical quantum information (onto which we apply quantum algorithms) from the noise of the hardware onto which we "physically" perform the quantum computation. 
+            k logical qubits are thus encoded onto a larger number n>k of physical noisy qubits using a QEC code.
+            By actively detecting and correcting errors, if the physical noise is sufficiently low (but non-zero), we can reduce the errors on the logical qubits to arbitrarily low values.
+            Usually, the achievable performances and resource overhead (n/k) depends a lot on the way we implement QEC, this is an architecture.
+
+            I am interested in finding the best architectures for photonic platforms.
+            This requires exploiting the benefits of photonic quantum information processing and to combine it best with the QEC code and the fault-tolerant gate layers. 
+            
+        </p>
+    </section>
+
+    </body>
+</html>
