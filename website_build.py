@@ -1,6 +1,12 @@
 import os
 
 
+"""
+Python script to generate quickly all the html files needed.
+It simplifies a bit handling the headers for example.
+Modify the files in the "parts" part and use this script to do the rest. 
+"""
+
 prefix = """
 <!DOCTYPE html>
 <html lang="en">
@@ -76,4 +82,3 @@ if __name__ == "__main__":
 
     for ind in range(len(file_name_list)):
         build_html(file_name_list[ind], file_list[ind])
-    # build_html("index_test.html","index.html")
