@@ -2,7 +2,7 @@ html {
     font-family: "Open Sans";
     padding-left: 5%;
     padding-right: 5%;
-    background-color: #000000 ;
+    background-color: #000000e4 ;
     color: white;
 }
 
@@ -84,4 +84,49 @@ color: #d49109;
 .button {
     padding-left: 6px;
     padding-right: 6px;
+}
+
+
+.logo_name {
+    background-color: #4f4f4f;
+    color: #d49109; 
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; /* Small separation between columns */
+    padding: 10px;
+    padding-left: 10px; /* 10px margin to the left */
+    justify-content: flex-start; /* Align the container to the left */
+    width: 100%; /* Ensure the container takes up the full width */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.column {
+    /* width: 5%; */
+    padding: 10px;
+    padding-left: min(30px, 5%);
+    padding-right: min(30px, 5%);
+    box-sizing: border-box;
+    text-align: center; /* Center the text inside the columns */
+    border-radius: 20px; /* Soft edges */
+    /* box-shadow: 0 6px 6px #4f4f4f;  */
+    position: relative; /* Ensure the columns are positioned relative */
+    z-index: 1; /* Ensure the columns appear above other elements */
+    /* background-color: white;  */
+    background-color: #1f1f1f;
+}
+
+
+
+.news_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Small separation between rows */
+    padding: 10px;
+    padding-left: 10px; /* 10px margin to the left */
+    justify-content: flex-start; /* Align the container to the left */
+    width: 100%; /* Ensure the container takes up the full width */
+    box-sizing: border-box; /* Include padding in the width calculation */
 }
