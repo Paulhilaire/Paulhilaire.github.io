@@ -1,10 +1,17 @@
 html {
     font-family: "Open Sans";
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #000000e4 ;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    background-color: #191919 ;
     color: white;
 }
+
+section {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
 
 p {
     /* text-align: justify; */
@@ -129,4 +136,18 @@ color: #d49109;
     justify-content: flex-start; /* Align the container to the left */
     width: 100%; /* Ensure the container takes up the full width */
     box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.sticky-banner {
+    position: sticky;
+    top: 0;
+    background-color: #191919;
+    /* padding: -100px; */
+    padding-left: -5%;
+    padding-right: -5%;
+    text-align: center;
+    z-index: 1000; /* Ensure the banner stays above other content */
+    box-shadow: 0 10px 10px #191919;
+    border-bottom: 2px solid #101010; 
+
 }
