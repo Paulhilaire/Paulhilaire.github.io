@@ -13,12 +13,6 @@ section {
 
 
 
-p {
-    /* text-align: justify; */
-    /* padding-left: 10%;
-    padding-right: 10%; */
-}
-
 h1 {
     font-size: 30px;
     text-align: center;
@@ -31,10 +25,6 @@ h2 {
 
 h3 {
     padding-left: 2%;
-}
-
-h4 {
-
 }
 
 a {
@@ -75,11 +65,41 @@ color: #d49109;
     margin-right: auto;
     /* background-color: grey; */
     /* padding: 15px; */
-    padding-top: 15px;
-    padding-bottom: 15px;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
     /* width: 400px; */
     display: inline-block;
     text-align: center;
+    font-size: 20px;
+}
+
+.column-banner {
+    display: inline-block;
+    text-align: center;
+}
+
+
+.column-banner img {
+    display: block; /* Ensures the image behaves predictably */
+    width: 75px; /* Sets the width of the image */
+    height: 75px; /* Ensures the image is a square */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits within the circle without distortion */
+}
+
+.left {
+    margin-left: auto;
+    padding-right: 15px;
+}
+
+.right {
+    margin-right: auto;
+    padding-left: 15px;
+}
+.banner-container {
+    display: flex;
+    align-items: center; /* Centers content vertically */
+    gap: 10px; /* Adds space between the image and text */
 }
 
 .container {
@@ -145,6 +165,7 @@ color: #d49109;
     /* padding: -100px; */
     padding-left: -5%;
     padding-right: -5%;
+    padding-top:10px;
     text-align: center;
     z-index: 1000; /* Ensure the banner stays above other content */
     box-shadow: 0 10px 10px #191919;
