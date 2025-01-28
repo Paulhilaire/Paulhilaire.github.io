@@ -23,9 +23,9 @@ h2 {
     /* text-align: center; */
 }
 
-h3 {
+/* h3 {
     padding-left: 2%;
-}
+} */
 
 a {
     outline: none;
@@ -238,4 +238,17 @@ color: #d49109;
 
 .right-research {
     border-left: 2px solid #000000; 
+}
+
+.image-cv {
+    position: relative; /* Keep the image at the top */
+    top: 0;
+    left: 0;
+    width: min(100px, 10%);
+    /* max-width: 50px; */
+}
+
+.right-cv {
+    border-left: 2px solid #000000; 
+    width: 90%;
 }
