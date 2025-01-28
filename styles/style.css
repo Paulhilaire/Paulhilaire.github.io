@@ -79,6 +79,10 @@ color: #d49109;
 }
 
 
+.caption {
+    font-size: 10px;
+}
+
 .column-banner img {
     display: block; /* Ensures the image behaves predictably */
     width: 75px; /* Sets the width of the image */
@@ -123,7 +127,7 @@ color: #d49109;
     display: flex;
     flex-direction: row;
     gap: 10px; /* Small separation between columns */
-    padding: 10px;
+    padding: 5px;
     padding-left: 10px; /* 10px margin to the left */
     justify-content: flex-start; /* Align the container to the left */
     width: 100%; /* Ensure the container takes up the full width */
@@ -171,4 +175,67 @@ color: #d49109;
     box-shadow: 0 10px 10px #191919;
     border-bottom: 2px solid #101010; 
 
+}
+
+
+.read-more-btn {
+    background-color: #d49109;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.read-more-btn:hover {
+    background-color: #d49109;
+}
+
+.container .right {
+    overflow: hidden; /* Ensures smooth transition is constrained */
+}
+
+.full-text {
+    max-height: 0; /* Start fully hidden */
+    opacity: 0; /* Invisible initially */
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out; /* Smooth animation */
+}
+
+.full-text.hidden {
+    max-height: 0; /* Fully collapsed */
+    opacity: 0; /* Fully invisible */
+}
+
+.full-text:not(.hidden) {
+    max-height: 1000px; /* Large enough to fit all content */
+    opacity: 1; /* Fully visible */
+    transition: max-height 0.3s ease-in, opacity 0.3s ease-in; /* Smooth animation */
+}
+
+.short-text {
+    transition: opacity 0.3s ease-out; /* Smooth fade for the short text */
+}
+
+.short-text.hidden {
+    opacity: 0; /* Invisible when hidden */
+}
+
+.research-interest {
+    /* border: 2px solid #000000;  */
+    background-color: #1f1f1f;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.image-research {
+    position: relative; /* Keep the image at the top */
+    top: 0;
+    left: 0;
+    min-width: 300px;
+}
+
+.right-research {
+    border-left: 2px solid #000000; 
 }
