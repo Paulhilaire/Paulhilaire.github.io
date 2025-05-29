@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>High school seminar</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<!-- <link rel="stylesheet" href="dist/theme/black.css"> -->
+		<link rel="stylesheet" href="dist/theme/moon2.css">
+		<link rel="stylesheet" href="styles.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>A quantum journey :<br> Entanglement</h2>
+					<p>Paul Hilaire</p>
+					<p><small>May, 27 2025</small></p>
+					<h5>Popularization seminar for highschool students</h5>
+					<img src="figures/telecom_logo.png" style="width: 25%;">
+				</section>
+
+				<!-- Slide 1 -->
+				<section>
+					<h2>What is this ?</h2>
+
+					<div class="r-stack">
+						<img class="fragment fade-out" data-fragment-index="0" src="figures/cryostat.jpg" height="600">
+						<img class="fragment current-visible" data-fragment-index="0"  src="figures/majorana1.jpg" height="600">					
+						<img class="fragment current-visible" data-fragment-index="1" src="figures/photonicQC.jpg" height="600">
+										
+					</div>
+
+
+					<!-- <section>
+						<img src="figures/cryostat.jpg" style="width: 30%;">
+					</section>
+					<section>
+						<img src="figures/majorana1.jpg" style="width: 70%;">
+					</section>
+					<section>
+						<img src="figures/photonicQC.jpg" style="width: 50%;">
+					</section> -->
+				</section>
+				<!-- Slide 2 -->
+				<section>
+					<h2>Classical physics</h2>
+					<div class="r-stack">
+						<img  class="fragment fade-out" data-fragment-index="1" src="figures/balle_tennis.jpg" height="300">
+						<img  class="fragment current-visible" data-fragment-index="1" src="figures/pendule_simple.jpg" height="300">
+						<img  class="fragment current-visible" data-fragment-index="2" src="figures/double_pendule.png" height="300">
+					</div>
+					<br>
+						<h4>$m \vec{a} = \frac{d\vec v}{dt} = \sum \vec{F}$</h4>
+					<ul>
+						<li class="fragment" data-fragment-index="1">Determinism : if we know the initial conditions, we can predict anything.</li>
+						<li class="fragment" data-fragment-index="2">Randomness = lack of information ? Example : double pendulum.</li>
+					</ul>
+
+					
+					
+				</section>
+				
+				<section>
+					<h2>Chaos: the "randomness" in classical physics</h2>
+					<video controls autoplay loop>
+					<source src="videos/pendule_vid.mp4" type="video/mp4">
+					Votre navigateur ne supporte pas la lecture de vidéos.
+					</video>
+				</section>
+
+				<section>
+				<h2>Why quantum mechanics ?</h2>
+
+				<div style="display: flex; gap: 2rem; align-items: flex-start;">
+
+					<!-- Text column -->
+					<div class="r-stack" style="flex: 0 0 55%;">
+
+						<ul>
+							<li class="fragment" data-fragment-index="0">
+							XIX<sup>e</sup> : Physics is "almost" complete.
+							</li>
+							<li class="fragment" data-fragment-index="1">
+							Unsolved puzzles :
+							<ul>
+								<li class="fragment" data-fragment-index="2">
+								<strong>Photo-electric effect</strong>
+								a metal plate only emits electron if the light frequency is sufficiently large, not its intensity !
+								</li>
+								<li class="fragment" data-fragment-index="3">
+								<strong>Atomic emission spectrum</strong>
+								Atoms emit/absorb light only at specific colors, not with a continuous spectrum.
+								</li>
+							</ul>
+							</li>
+							<li class="fragment" data-fragment-index="4">
+								These are failures of classical physics. We need a new framework 
+							<p>→ <strong>Quantum mechanics</strong>.</p>
+							</li>
+						</ul>
+					</div>
+
+					<!-- Image column -->
+					<div clas="r-stack" style="flex: 0 0 45%;">
+						<div class="fragment current-visible" data-fragment-index="2">
+							<img src="figures/photoelectric_effect.png" style="width: 100%;" alt="Effet photoélectrique">
+							<p style="font-size: 0.7em; text-align: center;"><em>Photo-electric effect – Einstein 1905</em></p>
+						</div>
+
+						<div class="fragment current-visible" data-fragment-index="3">
+							<img src="figures/spectre_raies.png" style="width: 100%;" alt="Spectre de raies">
+							<p style="font-size: 0.7em; text-align: center;"><em>Atomic emission wavelength</em></p>
+						</div>
+
+					<div class="fragment" data-fragment-index="4">
+						<img src="figures/planck_blackbody.png" style="width: 100%;" alt="Corps noir">
+						<p style="font-size: 0.7em; text-align: center;"><em>Blackbody – Planck law replace Rayleigh-Jeans</em></p>
+					</div>
+					</div>
+
+				</div>
+				</section>
+
+
+				<section>
+				<h2>Surprising consequences</h2>
+				<div style="display: flex; gap: 2rem; align-items: flex-start;">
+
+					<!-- Colonne texte -->
+					<div style="flex: 0 0 65%;">
+					<ul>
+						<li class="fragment" data-fragment-index="1">
+						<strong>Discrete energy levels</strong><br>
+						<div class="fragment current-visible" data-fragment-index="1"> <span class="explanation">Electrons in an atom can only exist on specific orbits, not in between two allowed orbits.</span></div>
+						</li>
+
+						<li class="fragment" data-fragment-index="2">
+						<strong> Wave-particle duality</strong><br>
+						<div class="fragment current-visible" data-fragment-index="2"><span class="explanation">Matter seems to have a behavior in between that sometimes resembles that of waves and sometimes that of balls.</span></div>
+						</li>
+
+						<li class="fragment" data-fragment-index="3">
+						<strong>Uncertainty principle</strong><br>
+						<div class="fragment current-visible" data-fragment-index="3"><span class="explanation"><strong>(Heisenberg)</strong> It is impossible to know exactly the position <em>and</em> the speed of a particle at the same time</span></div>
+						</li>
+
+						<li class="fragment" data-fragment-index="4">
+						<strong>Measurement is a fundamental effect</strong><br>
+						<div class="fragment current-visible" data-fragment-index="4"><span class="explanation">Observing a quantum system modify its state. This is called wavepacket collapse.</span></div>
+						</li>
+
+						<li class="fragment" data-fragment-index="5">
+						<strong>Quantum superposition</strong>
+						</li>
+
+						<li class="fragment" data-fragment-index="6">
+						<strong>Quantum entanglement</strong>
+						</li>
+					</ul>
+					</div>
+
+					<!-- Colonne image -->
+					<div style="flex: 0 0 35%; position: relative;">
+					<div class="fragment fade-out" data-fragment-index="6"><div class="image-stage fragment visible" data-fragment-index="1">
+						<img src="figures/schrodinger_cat.png" alt="Chat de Schrödinger" style="width: 100%; margin-top: 1em;">
+						<p class="caption"><em>Schrödinger's cat, dead and alive at the same time (quantum superposition)</em></p>
+					</div></div>
+
+					<div class="image-stage fragment" data-fragment-index="6">
+						<img src="figures/entanglement.png" alt="Intrication photonique" style="width: 100%; margin-top: 1em;">
+						<p class="caption"><em>Photons (light particles) coming from a satellite, entangled over more than 1000 km</em></p>
+					</div>
+					</div>
+				</div>
+				</section>
+
+				<section>
+					<h2>Discussion with head/tails</h2>
+				</section>
+<!-- 
+				<section>
+					<section>
+						<h2>Un long débat physique et philosohique</h2>
+						
+					</section>
+						<div class="timeline">
+							<svg viewBox="0 0 600 120">
+								<line x1="0" y1="40" x2="580" y2="40" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+								
+								<circle class="dot step-1" cx="50" cy="40" r="5" fill="blue" />
+								<text class="label step-1" x="00" y="30">1935</text>
+								
+								<circle class="dot step-3" cx="160" cy="40" r="5" fill="blue" />
+								<text class="label step-3" x="110" y="30">1950</text>
+								
+								<circle class="dot step-4" cx="270" cy="40" r="5" fill="blue" />
+								<text class="label step-4" x="220" y="30">1964</text>
+								
+								<circle class="dot step-5" cx="380" cy="40" r="5" fill="blue" />
+								<text class="label step-5" x="330" y="30">1980</text>
+
+								<circle class="dot step-5" cx="450" cy="40" r="5" fill="blue" />
+								<text class="label step-5" x="440" y="30">2022</text>
+
+								<defs>
+									<marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto">
+									<path d="M0,0 L10,5 L0,10 z" fill="black" />
+									</marker>
+								</defs>
+							</svg>
+						</div>
+						<section data-auto-animate>
+							<p data-id=""><strong>1935 – Le paradoxe EPR</strong></p>
+							<img src="figures/einstein.png" alt="Einstein" style="height: 150px;">
+							<img src="figures/bohr.png" alt="Bohr" style="height: 150px;">
+							<ul>
+							<li>Albert Einstein débat avec Nils Bohr de la "complétude" de la physique quantique.</li>
+							<li>Il n'est pas satisfait de son côté "aléatoire".</li>
+							<li>Il défend l'idée d'un modèle à variables cachées.</li>
+							</ul>
+						</section>
+						<section data-auto-animate>
+							<p><strong>1935 – Débat mathématique</strong></p>
+							<img src="figures/von_neumann.png" alt="Von Neumann" style="height: 150px;">
+							<img src="figures/hermann.png" alt="Hermann" style="height: 150px;">
+							<ul>
+							<li>John von Neumann "prouve" qu'un modèle à variables cachés est impossible.</li>
+							<li>Grete Hermann démontre que cette preuve est fausse...</li>
+							<li>Mais personne ne l'écoute...</li>
+							</ul>
+						</section>
+						<section data-auto-animate>
+							<p><strong>1950 – Démonstration d'intrication</strong></p>
+							<img src="figures/wu.jpg" alt="Wu" style="height: 150px;">
+							<ul>
+							<li>Chien-Shiung Wu réalise la première expérience d'intrication de photons.</li>
+							<li>Résultat peu reconnu... y compris aujourd’hui.</li>
+							</ul>
+						</section>
+						<section data-auto-animate>
+							<p><strong>1964 – Inégalités de Bell</strong></p>
+							<img src="figures/bell.jpg" alt="Bell" style="height: 150px;">
+							<ul>
+							<li>John Bell redécouvre l'erreur dans la preuve de von Neumann.</li>
+							<li>Il montre qu'une expérience peut trancher entre Einstein et Bohr.</li>
+							<li>Ses inégalités rendent l'interprétation testable expérimentalement.</li>
+							</ul>
+						</section>
+						<section data-auto-animate>
+							<p><strong>1980-2022 – Expériences et Nobel</strong></p>
+							<img src="figures/clauser.jpg" alt="Clauser" style="height: 100px;">
+							<img src="figures/aspect.png" alt="Aspect" style="height: 100px;">
+							<img src="figures/zeilinger.jpg" alt="Zeilinger" style="height: 100px;">
+							<ul>
+							<li>Expériences de Clauser, Aspect, et Zeilinger.</li>
+							<li>Les modèles à variables cachées sont exclus par l’expérience !</li>
+							<li>Ils reçoivent le prix Nobel en 2022.</li>
+							</ul>
+						</section>
+				</section> -->
+
+
+			<section>
+					<h2>A long physical and philosophical debate</h2>
+					
+					<div class="r-stack">
+						<p class="fragment fade-out" data-fragment-index="0"><strong>1935 – The EPR paradox</strong></p>
+						<p class="fragment current-visible" data-fragment-index="0"><strong>1935 – Mathematical debate</strong></p>
+						<p  class="fragment current-visible" data-fragment-index="1"><strong>1950 – Entanglement demonstration</strong></p>
+						<p  class="fragment current-visible" data-fragment-index="2"><strong>1964 – Bell inequalities</strong></p>
+						<p  class="fragment current-visible" data-fragment-index="3"><strong>1980-2022 – Experiment and Nobel prizes</strong></p>
+						
+
+					</div>
+					<div class="r-stack">
+						<div class="fragment fade-out" data-fragment-index="0">
+							<img src="figures/einstein.png" alt="Einstein" style="height: 150px;">
+							<img src="figures/bohr.png" alt="Bohr" style="height: 150px;">
+						</div>
+						<div class="fragment current-visible" data-fragment-index="0">
+							<img src="figures/von_neumann.png" alt="Von Neumann" style="height: 150px;">
+							<img src="figures/hermann.png" alt="Hermann" style="height: 150px;">
+						</div>
+						<div class="fragment current-visible" data-fragment-index="1">
+							<img src="figures/wu.jpg" alt="Wu" style="height: 150px;">
+						</div>
+						<div class="fragment current-visible" data-fragment-index="2">
+							<img src="figures/bell.jpg" alt="Bell" style="height: 150px;">
+						</div>
+						<div class="fragment current-visible" data-fragment-index="3">
+							<img src="figures/clauser.jpg" alt="Clauser" style="height: 150px;">
+							<img src="figures/aspect.png" alt="Aspect" style="height: 150px;">
+							<img src="figures/zeilinger.jpg" alt="Zeilinger" style="height: 150px;">	
+						</div>
+					</div>
+					<div class="r-stack">
+						<ul class="fragment fade-out" data-fragment-index="0">
+							<li>Albert Einstein debates with Nils Bohr on the completeness of quantum mechanics.</li>
+							<li>He is not satisfied in its fundamental randomness aspect.</li>
+							<li>He's defending the idea of hidden variable models.</li>
+						</ul>
+						<ul class="fragment current-visible" data-fragment-index="0">
+							<li>John von Neumann "prove" that local hidden variable models are wrong.</li>
+							<li>Grete Hermann points out an error in this proof...</li>
+							<li>Noone is listening to her...</li>
+						</ul>
+						<ul class="fragment current-visible" data-fragment-index="1">
+							<li>Chien-Shiung Wu perform the first experiment on entanglement with photons.</li>
+							<li>Relatively unknown result... as of today.</li>
+						</ul>
+						<ul  class="fragment current-visible" data-fragment-index="2">
+							<li>John Bell rediscover the error in von Neumann's proof.</li>
+							<li>He shows that an experiment could solve the Einstein / Bohr debate.</li>
+							<li>Its Bell inequalities make interpretation of quantum mechanics experimentally testable.</li>
+						</ul>
+						<ul  class="fragment current-visible" data-fragment-index="3">
+							<li>Clauser, Aspect, and Zeilinger experiments.</li>
+							<li>Hidden variable models are disproved by experiments !</li>
+							<li>They recieve the Nobel prize in 2022.</li>
+						</ul>
+					</div>
+
+
+					<div class="timeline">
+						<svg viewBox="0 0 600 120">
+							<line x1="0" y1="40" x2="580" y2="40" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+							
+							<circle class="dot step-1 fragment fade-out" data-fragment-index="1" cx="25" cy="40" r="5" fill="blue" />
+							<text class="label step-1" x="00" y="30" style="font-size: 0.7em">1935</text>
+							
+							<circle class="dot step-3  fragment current-visible" data-fragment-index="1" cx="135" cy="40" r="5" fill="blue" />
+							<text class="label step-3" x="110" y="30" style="font-size: 0.7em">1950</text>
+							
+							<circle class="dot step-4  fragment current-visible" data-fragment-index="2" cx="245" cy="40" r="5" fill="blue" />
+							<text class="label step-4" x="220" y="30" style="font-size: 0.7em">1964</text>
+							
+							<circle class="dot step-5  fragment current-visible" data-fragment-index="3" cx="355" cy="40" r="5" fill="blue" />
+							<text class="label step-5" x="330" y="30"style="font-size: 0.7em" >1980</text>
+
+							<circle class="dot step-5  fragment current-visible" data-fragment-index="3" cx="465" cy="40" r="5" fill="blue" />
+							<text class="label step-5" x="440" y="30" style="font-size: 0.7em">2022</text>
+
+							<defs>
+								<marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto">
+								<path d="M0,0 L10,5 L0,10 z" fill="black" />
+								</marker>
+							</defs>
+						</svg>
+					</div>
+			</section>
+
+
+
+				<!-- Slide: Mon parcours -->
+				<section>
+				<h2>My background</h2>
+				<ul>
+					<li>Highschool</li>
+					<li>Final year</li>
+					<li>Ecole préparatoire (French preparatory school to higher education exams)</li>
+					<li>Engineering school</li>
+					<li>Ph.D. in experimental quantum optics, then shift towards theory</li>
+					<li>Postdoc in the USA</li>
+					<li>Job in the industry</li>
+					<li>Today : tenure track position at Télécom Paris</li>
+				</ul>
+				</section>
+
+				<!-- Slide: Caricature du théoricien -->
+				<section>
+				<h2>Caricature of a theoretician (with some truth)</h2>
+				<img src="figures/sheldon.jpg" alt="Sheldon" style="width: 60%; margin: auto; display: block;">
+				</section>
+
+				<!-- Slide: Être chercheur, c’est quoi ? -->
+				<section>
+				<h2>What is the researcher's job?</h2>
+				<ul>
+					<li>Teaching</li>
+					<li>My field : quantum information, and more precisely quantum error correction</li>
+					<li>In practice, my job can be divided in 3 big types of activities:
+					<ul>
+						<li>Getting updated with current state-of-the-art</li>
+						<li>« Do research»</li>
+						<li>Disseminating research</li>
+					</ul>
+					</li>
+					<li>Research supervision</li>
+				</ul>
+				</section>
+
+				<!-- Slide: Pour aller plus loin -->
+				<section>
+					<h2>To go further</h2>
+					<ul>
+						<li>
+						<h4>Really good books on scientific popularization</h4>
+						
+						<ul>
+							<li><em>A brief history of time</em> – S. Hawking</li>
+							<!-- <li><em>Tout ce que vous avez toujours voulu savoir sur le blob</em> – A. Dussutour </li> -->
+						</ul>
+						</li>
+						<br><br>
+						
+						<li>
+						<h4>Chaînes youtube</h4>
+						<ul>
+							<li><a href="https://www.youtube.com/@veritasium">Veritasium</a></li>
+							<!-- <li> <a href="https://www.youtube.com/@scilabus">Scilabus</a></li> -->
+						</ul></li>
+					</ul>
+					<p style="margin-top: 2em;">Me contacter: <a href="mailto:paul.hilaire@telecom-paris.fr">paul.hilaire@telecom-paris.fr</a></p>
+				</section>
+
+			
+			</div>
+		</div>
+
+
+		
+	<!-- <script>
+	Reveal.on('fragmentshown', event => {
+		if (event.fragment.classList.contains('image-stage')) {
+		document.querySelectorAll('.image-stage').forEach(div => {
+			div.classList.remove('visible');
+		});
+		event.fragment.classList.add('visible');
+		}
+	});
+	</script> -->
+
+		<!-- <script>
+		Reveal.on('fragmentshown', event => {
+			if (event.fragment.classList.contains('image-stage')) {
+			document.querySelectorAll('.image-stage').forEach(div => {
+				div.classList.remove('visible');
+			});
+			event.fragment.classList.add('visible');
+			}
+		});
+		</script> -->
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				width: 1200,
+  				height: 700,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax2 ]
+			});
+		</script>
+	</body>
+</html>
