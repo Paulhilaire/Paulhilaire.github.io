@@ -1,0 +1,144 @@
+:root {
+  --bg-dark: #191919;
+  --bg-light: #1f1f1f;
+  --highlight: #d49109;
+  --text-color: white;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-color);
+}
+
+body, h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 20px 5%;
+}
+
+/* Profile */
+.profile-photo {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+/* Sticky header */
+.sticky-banner {
+  position: sticky;
+  top: 0;
+  background-color: var(--bg-dark);
+  padding: 10px 5%;
+  z-index: 1000;
+  border-bottom: 2px solid #101010;
+}
+
+/* Flex banner */
+.banner-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+
+
+.column-banner img {
+    display: block; /* Ensures the image behaves predictably */
+    width: 75px; /* Sets the width of the image */
+    height: 75px; /* Ensures the image is a square */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits within the circle without distortion */
+}
+
+/* Navigation */
+.banner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button {
+  padding: 6px 10px;
+  background-color: transparent;
+  color: var(--highlight);
+  border: 1px solid var(--highlight);
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: var(--highlight);
+  color: var(--bg-dark);
+}
+
+/* Links */
+a {
+  color: var(--highlight);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Layouts */
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;     /* Small separation between columns */
+    padding: 5px;
+    padding-left: 10px;     /* 10px margin to the left */
+
+    justify-content: flex-start; /* Align the container to the left */
+    width: 100%;     /* Ensure the container takes up the full width */
+    box-sizing: border-box; /* Include padding in the width calculation */
+
+  /* display: flex;
+  flex-wrap: wrap;
+  gap: 15px; */
+}
+
+.left, .right {
+  flex: 1 1 45%;
+}
+
+.image-cv img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.research-interest {
+  background-color: var(--bg-light);
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .banner-container, .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left, .right {
+    flex: 1 1 100%;
+  }
+
+  .button {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+

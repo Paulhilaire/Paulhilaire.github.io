@@ -1,0 +1,65 @@
+\begin{tikzpicture}
+\begin{scope}%[every node/.style={circle,thick,draw,fill=red!20}]
+    \node[style={circle,thick,draw,fill=red!20}] (d1) at (0,-0) {$d_0$};
+    \node[style={circle,thick,draw,fill=red!20}] (d2) at (0,-1) {$d_1$};
+    \node[style={circle,thick,draw,fill=red!20}] (d3) at (0,-2) {$d_2$};
+    \node[style={circle,thick,draw,fill=red!20}] (d4) at (0,-3) {$d_3$};
+    \node[style={circle,thick,draw,fill=red!20}] (d5) at (0,-4) {$d_4$};
+    \node[style={circle,thick,draw,fill=red!20}] (d6) at (0,-5) {$d_5$};
+    \node[style={circle,thick,draw,fill=red!20}] (d7) at (0,-6) {$d_6$};
+    \node[style={circle,thick,draw,fill=red!20}] (d8) at (0,-7) {$d_7$};
+    \node[style={circle,thick,draw,fill=red!20}] (d9) at (0,-8) {$d_8$};
+
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c1) at (3,-0.5) {$c_0$};
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c2) at (3,-1.5) {$c_1$};
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c3) at (3,-3.5) {$c_2$};
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c4) at (3,-4.5) {$c_3$};
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c5) at (3,-6.5) {$c_4$};
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c6) at (3,-7.5) {$c_5$};
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c7) at (-3,-2.5) {$c_6$};
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c8) at (-3,-5.5) {$c_7$};
+
+\end{scope}
+\begin{scope}[>={Stealth},
+            %   every node/.style={fill=white,circle},
+            %   every edge/.style={draw=red}
+              ]
+    \path [-, blue] (d1) edge node {} (c1);
+    \path [-, blue] (d2) edge node {} (c1);
+
+    \path [-, blue] (d2) edge node {} (c2);
+    \path [-, blue] (d3) edge node {} (c2);
+
+
+    \path [-, blue] (d4) edge node {} (c3);
+    \path [-, blue] (d5) edge node {} (c3);
+
+    \path [-, blue] (d5) edge node {} (c4);
+    \path [-, blue] (d6) edge node {} (c4);
+
+
+    \path [-, blue] (d7) edge node {} (c5);
+    \path [-, blue] (d8) edge node {} (c5);
+
+    \path [-, blue] (d8) edge node {} (c6);
+    \path [-, blue] (d9) edge node {} (c6);
+
+                                           
+    \path [dashed, red]  (d1) edge node {} (c7);
+    \path [dashed, red]  (d2) edge node {} (c7);
+    \path [dashed, red]  (d3) edge node {} (c7);
+    \path [dashed, red]  (d4) edge node {} (c7);
+    \path [dashed, red]  (d5) edge node {} (c7);
+    \path [dashed, red]  (d6) edge node {} (c7);
+
+    \path [dashed, red]  (d4) edge node {} (c8);
+    \path [dashed, red]  (d5) edge node {} (c8);
+    \path [dashed, red]  (d6) edge node {} (c8);                 
+    \path [dashed, red]  (d7) edge node {} (c8);
+    \path [dashed, red]  (d8) edge node {} (c8);
+    \path [dashed, red]  (d9) edge node {} (c8);
+
+
+
+\end{scope}
+\end{tikzpicture}

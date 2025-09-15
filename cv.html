@@ -12,21 +12,63 @@
     type="text/css" />
 </head>
 <body>
-    <!-- 
-<section>
-    <h1>Paul Hilaire</h1>
-    <div class="container">
-        <div class="banner">
-            <a class="button" href="./index.html">Home</a>
-            <a class="button" href="./cv.html">CV</a>
-            <a class="button" href="./research_interests.html">Research Interests</a>
-            <a class="button" href="./thoughts.html">Thoughts</a>
-            <a class="button" href="./teaching.html">Teaching</a>
-        </div>
+<main>
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Paul Hilaire - Personal Website" />
+  <meta name="author" content="Paul Hilaire" />
+  <title>Paul Hilaire's Website</title>
+  <link href="styles/style2.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+</head>
+<body>
+<!-- Bootstrap JS Bundle (with Popper) -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+
+<!-- 
+<header class="bg-dark text-white sticky-top shadow-sm py-2">
+  <div class="container d-flex align-items-center">
+    <img src="./parts/images/photo_paul.png" alt="Paul Hilaire" class="rounded-circle me-3" style="width: 75px; height: 75px; object-fit: cover;">
+    <h1 class="h4 m-0">Paul Hilaire</h1>
+  </div>
+  <nav class="container mt-2">
+    <div class="nav justify-content-center">
+      <a class="nav-link text-warning" href="./index.html">Home</a>
+      <a class="nav-link text-warning" href="./cv.html">CV</a>
+      <a class="nav-link text-warning" href="./research_interests.html">Research Interests</a>
+      <a class="nav-link text-warning" href="./thoughts.html">Thoughts</a>
+      <a class="nav-link text-warning" href="./teaching.html">Teaching/Talks</a>
     </div>
-</section> -->
+  </nav>
+</header> -->
+
 
 <header class="sticky-banner">
+  <div class="banner-container">
+    <div class="left column-banner">
+      <img src="./parts/images/photo_paul.png" alt="Paul Hilaire" class="profile-photo" height="100" alt=""/>
+    </div>
+    <div class="right">
+      <h1>Paul Hilaire</h1>
+    </div>
+  </div>
+  <nav class="banner">
+    <a class="button" href="./index.html">Home</a>
+    <a class="button" href="./cv.html">CV</a>
+    <a class="button" href="./research_interests.html">Research Interests</a>
+    <a class="button" href="./thoughts.html">Thoughts</a>
+    <a class="button" href="./teaching.html">Teaching/Talks</a>
+  </nav>
+</header>
+
+
+<!-- <header class="sticky-banner">
     <div class="banner-container">        
         <div class="column-banner left">
             <img src="./parts/images/photo_paul.png"  height="100" alt="">
@@ -45,7 +87,7 @@
             <a class="button" href="./teaching.html">Teaching/Talks</a>
         </div>
     </div>
-</header>
+</header> -->
 <section><h2>Experience</h2>
 
   
@@ -55,7 +97,7 @@
                 <img src="./parts/images/logos/Logo_Télécom_ParisTech.svg" width="100px" alt="">
             </div>
             <div class="right right-cv">
-                <h3>Junior professor at Télécom (Quriosity Group, France)</h3>
+                <h3>Junior professor at IP-Paris / Télécom-Paris (Quriosity Group, France)</h3>
                 May. 2022 - today         
             </div>
         </div>
@@ -78,7 +120,8 @@
             <div class="left image-cv">
                 <img src="./parts/images/logos/virginia_tech_logo.png" width="100px" alt="">
                 <br>
-                <img src="./parts/images/logos/leiden_logo.svg" width="100px" alt="">
+                <br>
+                <img src="./parts/images/logos/leiden_logo.svg" width="80px" alt="">
             </div>
             <div class="right right-cv">
                 <h3>Postdoctoral positions in Quantum Optics and Quantum Information theory:</h3>
@@ -108,41 +151,23 @@
         </div>
     </div>
 
-    <!-- <h3>Junior professor at Télécom (Quriosity Group, France)</h3>
-    May. 2022 - today      -->
 
-    <!-- <h3>Lead Quantum Information Scientist at Quandela SAS (France)</h3>
-    May. 2022 - Feb. 2025      -->
 
-    <!-- <h3>Postdoctoral positions in Quantum Optics and Quantum Information theory:</h3>
-    <h4>Leiden University, Leiden (Netherlands)</h4>
-    Apr. 2021 - Apr. 2022     
-    Advisors: W. Löffler, E. Barnes, S. Economou.
-
-    <h4>Virginia Tech, Blacksburg Virginia (USA)</h4>
-    Jul. 2019 - Apr. 2021     
-    Advisors: S. Economou, E. Barnes. -->
-
-    
-    <!-- <h3> PhD in Quantum Nanophotonics:</h3>
-    Nov. 2015 - Jun. 2019    
-    Center for Nanosciences and Nanotechnology (C2N-CNRS, Palaiseau, France)/ University of Paris, Paris (France)
-    Project: <i>"A cavity-based spin-photon interface"</i>,  
-    Supervisor: L. Lanco. -->
 </section>
  
+
+    </div>
  <section><h2>Publications</h2>
     
     <div class="container">
-        <a href="https://arxiv.org/search/?searchtype=author&query=Hilaire%2C+P" class="column">
-            <img src="./parts/images/arxiv_logo.svg" height="25">
-        </a>
-        <a href="https://scholar.google.com/citations?hl=en&user=hGGVGkoAAAAJ" class="column">
-            <img src="./parts/images/google_scholar.png" height="25">
-        </a>
+      <a href="https://arxiv.org/search/?searchtype=author&query=Hilaire%2C+P" class="column">
+        <img src="./parts/images/arxiv_logo.svg" alt="arXiv" height="25" />
+      </a>
+      <a href="https://scholar.google.com/citations?hl=en&user=hGGVGkoAAAAJ" class="column">
+        <img src="./parts/images/google_scholar.png" alt="Google Scholar" height="25" />
+      </a>
     </div>
-     <!-- <img src="./parts/images/google_scholar.png" height="25">Google scholar</a> <br>
-     <img src="./parts/images/arxiv_logo.svg" height="25">Arxiv</a> -->
+    
     <br>
     (Anti-chronological order) <br>
     <h4>2025:</h4>
@@ -204,8 +229,10 @@
 <section>
     <h2>Patent</h2>
     <ul>
+        <li><i>A modular quantum data processing system,</i>
+            <br> Hilaire, de Gliniasty, Salavrakos, Somaschi, & Mansfield  <a href="https://patentimages.storage.googleapis.com/19/4f/b4/2a9480735a537a/WO2025021872A1.pdf">WO2025021872A1</a></li>
         <li><i>Method for enhancing the privacy of delegated quantum computations, and system for implementing such method,</i>
-            <br> Music, Hilaire, Wein, Emeriau, & Mansfield  <a href="https://www.patentguru.com/EP4472127A1">EP4472127A1</a></li>
+            <br> Music, Hilaire, Wein, Emeriau, & Mansfield  <a href="https://patentimages.storage.googleapis.com/d3/18/27/4a7db22fc35d9e/WO2024246286A1.pdf">WO2024246286A1</a></li>
     </ul>
 </section>
 
@@ -292,6 +319,8 @@
 </section>
  -->
 
+
+</main>
 <script src="./js/script.js"></script>
 </body>
 </html>

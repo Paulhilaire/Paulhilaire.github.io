@@ -1,0 +1,20 @@
+\begin{tikzpicture}
+\begin{scope}[every node/.style={circle,thick,draw,fill=red!20}]
+    \node (d1) at (0,-0) {$d_0$};
+    \node (d2) at (0,-1) {$d_1$};
+    \node (d3) at (0,-2) {$d_2$};
+
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c1) at (3,-0.5) {$c_0$};
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c2) at (3,-1.5) {$c_1$};
+\end{scope}
+\begin{scope}[>={Stealth},
+            %   every node/.style={fill=white,circle},
+            %   every edge/.style={draw=red}
+              ]
+    \path [-] (d1) edge node {} (c1);
+    \path [-] (d2) edge node {} (c1);
+
+    \path [-] (d2) edge node {} (c2);
+    \path [-] (d3) edge node {} (c2);
+\end{scope}
+\end{tikzpicture}

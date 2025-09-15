@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+\begin{scope}
+    \node (0) at (0,-0) {$0$};
+    \node (1) at (0,-1) {$1$};
+
+    \node (2) at (2,0) {$0$};
+    \node (3) at (2,-1) {$1$};
+\end{scope}
+\begin{scope}[>={Stealth},
+            %   every node/.style={fill=white,circle},
+            %   every edge/.style={draw=red}
+              ]
+    \path [->] (0) edge node[above] {$1- p$} (2);
+    \path [->] (1) edge node[below] {$1-p$} (3);
+    \path [->] (0) edge node[above] {$p$} (3);
+    \path [->] (1) edge node[below] {$p$} (2);
+\end{scope}
+\end{tikzpicture}

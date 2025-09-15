@@ -21,9 +21,12 @@ prefix = """
     type="text/css" />
 </head>
 <body>
+<main>
     """
 
 suffix = """
+
+</main>
 <script src="./js/script.js"></script>
 </body>
 </html>

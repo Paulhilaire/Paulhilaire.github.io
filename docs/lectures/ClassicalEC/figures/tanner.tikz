@@ -1,0 +1,34 @@
+\begin{tikzpicture}
+\begin{scope}[every node/.style={circle,thick,draw,fill=red!20}]
+    \node (d1) at (0,-0) {$d_0$};
+    \node (d2) at (0,-1) {$d_1$};
+    \node (d3) at (0,-2) {$d_2$};
+    \node (d4) at (0,-3) {$d_3$};
+    \node (d5) at (0,-4) {$d_4$};
+    \node (d6) at (0,-5) {$d_5$};
+    \node (d7) at (0,-6) {$d_6$};
+
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c1) at (3,-1) {$c_0$};
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c2) at (3,-3) {$c_1$};
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c3) at (3,-5) {$c_2$};
+\end{scope}
+\begin{scope}[>={Stealth},
+            %   every node/.style={fill=white,circle},
+            %   every edge/.style={draw=red}
+              ]
+    \path [-] (d1) edge node {} (c1);
+    \path [-] (d2) edge node {} (c1);
+    \path [-] (d4) edge node {} (c1);
+    \path [-] (d5) edge node {} (c1);
+
+    \path [-] (d2) edge node {} (c2);
+    \path [-] (d3) edge node {} (c2);
+    \path [-] (d4) edge node {} (c2);
+    \path [-] (d6) edge node {} (c2);
+
+    \path [-] (d1) edge node {} (c3);
+    \path [-] (d3) edge node {} (c3);
+    \path [-] (d4) edge node {} (c3);
+    \path [-] (d7) edge node {} (c3);
+\end{scope}
+\end{tikzpicture}

@@ -12,21 +12,63 @@
     type="text/css" />
 </head>
 <body>
-    <!-- 
-<section>
-    <h1>Paul Hilaire</h1>
-    <div class="container">
-        <div class="banner">
-            <a class="button" href="./index.html">Home</a>
-            <a class="button" href="./cv.html">CV</a>
-            <a class="button" href="./research_interests.html">Research Interests</a>
-            <a class="button" href="./thoughts.html">Thoughts</a>
-            <a class="button" href="./teaching.html">Teaching</a>
-        </div>
+<main>
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Paul Hilaire - Personal Website" />
+  <meta name="author" content="Paul Hilaire" />
+  <title>Paul Hilaire's Website</title>
+  <link href="styles/style2.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+</head>
+<body>
+<!-- Bootstrap JS Bundle (with Popper) -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+
+<!-- 
+<header class="bg-dark text-white sticky-top shadow-sm py-2">
+  <div class="container d-flex align-items-center">
+    <img src="./parts/images/photo_paul.png" alt="Paul Hilaire" class="rounded-circle me-3" style="width: 75px; height: 75px; object-fit: cover;">
+    <h1 class="h4 m-0">Paul Hilaire</h1>
+  </div>
+  <nav class="container mt-2">
+    <div class="nav justify-content-center">
+      <a class="nav-link text-warning" href="./index.html">Home</a>
+      <a class="nav-link text-warning" href="./cv.html">CV</a>
+      <a class="nav-link text-warning" href="./research_interests.html">Research Interests</a>
+      <a class="nav-link text-warning" href="./thoughts.html">Thoughts</a>
+      <a class="nav-link text-warning" href="./teaching.html">Teaching/Talks</a>
     </div>
-</section> -->
+  </nav>
+</header> -->
+
 
 <header class="sticky-banner">
+  <div class="banner-container">
+    <div class="left column-banner">
+      <img src="./parts/images/photo_paul.png" alt="Paul Hilaire" class="profile-photo" height="100" alt=""/>
+    </div>
+    <div class="right">
+      <h1>Paul Hilaire</h1>
+    </div>
+  </div>
+  <nav class="banner">
+    <a class="button" href="./index.html">Home</a>
+    <a class="button" href="./cv.html">CV</a>
+    <a class="button" href="./research_interests.html">Research Interests</a>
+    <a class="button" href="./thoughts.html">Thoughts</a>
+    <a class="button" href="./teaching.html">Teaching/Talks</a>
+  </nav>
+</header>
+
+
+<!-- <header class="sticky-banner">
     <div class="banner-container">        
         <div class="column-banner left">
             <img src="./parts/images/photo_paul.png"  height="100" alt="">
@@ -45,10 +87,16 @@
             <a class="button" href="./teaching.html">Teaching/Talks</a>
         </div>
     </div>
-</header>
+</header> -->
 <section>
     <h2>Teaching / Talks</h2>
         <div class="news_container">
+            <li>
+                    <div>
+                        Here's introductory lecture notes on Classical Error Correction (for the QMI master)
+                        <a href="../docs/lectures/ClassicalEC/Classical Error Correction.pdf">PDF</a>, and a programming tutorial <a href="./docs/lectures/ClassicalEC/LabCEC.ipynb">Python Notebook</a> 
+                    </div>
+                </li>
             <ul>
                 <li>
                     <div>
@@ -66,6 +114,8 @@
         </div>
     </ul>
 </section>
+
+</main>
 <script src="./js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,45 @@
+\begin{tikzpicture}
+\begin{scope}%[every node/.style={circle,thick,draw,fill=red!20}]
+    \node[style={circle,thick,draw,fill=red!20}] (d1) at (0,-0) {$d_0$};
+    \node[style={circle,thick,draw,fill=red!20}] (d2) at (0,-1) {$d_1$};
+    \node[style={circle,thick,draw,fill=red!20}] (d3) at (0,-2) {$d_2$};
+    \node[style={circle,thick,draw,fill=red!20}] (d4) at (0,-3) {$d_3$};
+    \node[style={circle,thick,draw,fill=red!20}] (d5) at (0,-4) {$d_4$};
+
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c1) at (3,-0.5) {$c_0$};
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c2) at (3,-1.5) {$c_1$};
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c3) at (3,-2.5) {$c_2$};
+    \node[style={rectangle,thick,draw, fill=blue!20}] (c4) at (3,-3.5) {$c_3$};
+
+    \node[style={}] at (5,-0.5) {$X \otimes Z \otimes Z \otimes X \otimes I$};
+    \node[style={}] at (5,-1.5) {$I \otimes X \otimes Z \otimes Z \otimes X$};
+    \node[style={}] at (5,-2.5) {$X \otimes I \otimes X \otimes Z \otimes Z$};
+    \node[style={}] at (5,-3.5) {$Z \otimes X \otimes I \otimes X \otimes Z$};
+\end{scope}
+\begin{scope}[>={Stealth},
+            %   every node/.style={fill=white,circle},
+            %   every edge/.style={draw=red}
+              ]
+    \path [dashed, red]  (d1) edge node {} (c1);
+    \path [-, blue] (d2) edge node {} (c1);
+    \path [-, blue] (d3) edge node {} (c1);
+    \path [dashed, red]  (d4) edge node {} (c1);
+
+    \path [dashed, red]  (d2) edge node {} (c2);
+    \path [-, blue] (d3) edge node {} (c2);
+    \path [-, blue] (d4) edge node {} (c2);
+    \path [dashed, red]  (d5) edge node {} (c2);
+
+    \path [dashed, red]  (d3) edge node {} (c3);
+    \path [-, blue] (d4) edge node {} (c3);
+    \path [-, blue] (d5) edge node {} (c3);
+    \path [dashed, red]  (d1) edge node {} (c3);
+
+    \path [dashed, red]  (d4) edge node {} (c4);
+    \path [-, blue] (d5) edge node {} (c4);
+    \path [-, blue] (d1) edge node {} (c4);
+    \path [dashed, red]  (d2) edge node {} (c4);
+
+
+\end{scope}
+\end{tikzpicture}

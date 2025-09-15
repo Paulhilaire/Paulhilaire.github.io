@@ -1,0 +1,19 @@
+\begin{tikzpicture}[every node/.style={circle,thick,draw,fill=black!20}]
+    % Draw the three circles
+    \begin{scope}[blend mode=overlay]
+        \draw[thick, fill=red, opacity=0.2] (0,0) circle(2cm);  
+        \draw[thick, fill=blue, opacity=0.2] (2,0) circle(2cm);  
+        \draw[thick, fill=green, opacity=0.2] (1,1.7) circle(2cm);
+    \end{scope}
+    % Place the bits
+    \node at (-0.3,1.3) {$d_0$};
+    \node at (2.3,1.3) {$d_1$};
+    \node at (1,-1) {$d_2$};
+    \node at (1,0.5) {$d_3$};
+    \node at (1,2.5) {$d_4$};
+    \node at (2.7,-0.3) {$d_5$};
+    \node at (-0.7,-0.3) {$d_6$};
+    \node[style={rectangle, fill=green!20}] at (1,3.5) {$c_0$};
+    \node[style={rectangle, fill=red!20}] at (-1.3,-1.3) {$c_1$};
+    \node[style={rectangle, fill=blue!20}] at (3.3,-1.3) {$c_2$};
+\end{tikzpicture}
