@@ -73,7 +73,8 @@ if __name__ == "__main__":
         "cv.html",
         "research_interests.html",
         "teaching.html",
-        "thoughts.html"
+        "thoughts.html",
+        "group.html"
     ]
 
     file_name_list = [
@@ -81,7 +82,8 @@ if __name__ == "__main__":
         "cv.html",
         "research_interests.html",
         "teaching.html",
-        "thoughts.html"
+        "thoughts.html",
+        "group.html"
     ]
 
     for ind in range(len(file_name_list)):
